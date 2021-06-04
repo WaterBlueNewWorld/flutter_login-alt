@@ -205,9 +205,9 @@ class __HeaderState extends State<_Header> {
 class FlutterLogin extends StatefulWidget {
   FlutterLogin({
     Key key,
-    ///@required this.onSignup,
+    //@required this.onSignup,
     @required this.onLogin,
-    @required this.onRecoverPassword,
+    //@required this.onRecoverPassword,
     this.title = 'Inicio de sesión',
     this.logo,
     this.messages,
@@ -548,6 +548,7 @@ class _FlutterLoginState extends State<FlutterLogin>
         ChangeNotifierProvider(
           create: (context) => Auth(
             onLogin: widget.onLogin,
+
             ///onSignup: widget.onSignup,
             onRecoverPassword: widget.onRecoverPassword,
           ),
