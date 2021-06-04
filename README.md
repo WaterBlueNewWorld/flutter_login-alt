@@ -1,5 +1,5 @@
 # Leer antes
-Este repo es una modificacion del paquete flutter_login originalmente creado por [NearHuscarl](https://github.com/NearHuscarl/flutter_login), se recomien usar el
+Este repo es una modificacion del paquete flutter_login originalmente creado por [NearHuscarl](https://github.com/NearHuscarl/flutter_login), se recomienda usar el
 paquete oficial, ya que este no tiene soporte directo. Esta version elimina lo siguiente:
 * Opcion de recuperar contraseña
 * Opcion de registrarse
