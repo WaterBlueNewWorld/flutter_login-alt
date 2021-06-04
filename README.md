@@ -1,8 +1,8 @@
 # Leer antes
 Este repo es una modificacion del paquete flutter_login originalmente creado por [NearHuscarl](https://github.com/NearHuscarl/flutter_login), se recomienda usar el
 paquete oficial, ya que este no tiene soporte directo. Esta version elimina lo siguiente:
-* Opcion de recuperar contraseña
-* Opcion de registrarse
+* Opcion de recuperar contraseña (Desde la version 1.1.0 de flutter_login ya puede quitar o mostrar esto)
+* Opcion de registrarse (Desde la version 1.1.0 de flutter_login ya puede quitar o mostrar esto)
 * El uso obligatorio de email para inicio de sesion 
   * Por ejemplo: Solo se podia usar `user@someemail.com`
   * Ahora tanto correos como usuarios pueden ser usados
